@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>Jokenpo!</title>
+</head>
+
+<body>
+
+    <div class="bounds">
+
+        <div class="containers">
+            <span><span class="title">Jogador 1</span> <br> A = Pedra <br> S = Papel <br> D = Tesoura</span>
+            <span style="text-align: center" id="pts">Pontuação <br> 0x0</span>
+            <span><span class="title">Jogador 2</span> <br> J = Pedra <br> K = Papel <br> L = Tesoura</span>
+        </div>
+
+        <div class="imagens">
+            <img id="p1" src="" width="200" height="200">
+            <img id="p2" src="" width="200" height="200">
+        </div>
+
+        <div class="generic" style="gap: 10px;">
+
+            <button id="bt" class="bt">
+                jogar
+            </button>
+
+            <button id="reset" class="bt">
+                reiniciar
+            </button>
+
+        </div>
+
+        <span class="generic" id="msg"></span>
+
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
